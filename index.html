@@ -3,123 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
+    <title>Centered Text with Corner Text</title>
     <style>
-        * {
+        /* Style for centering the text */
+        body, html {
+            height: 100%;
             margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Helvetica', 'Arial', sans-serif;
-        }
-
-        body {
-            line-height: 1.6;
-            color: #333;
-            padding: 2rem;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 4rem;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #666;
-            margin-left: 2rem;
-            transition: color 0.3s ease;
-        }
-
-        nav a:hover {
-            color: #000;
-        }
-
-        .hero {
-            text-align: center;
-            margin: 6rem 0;
-        }
-
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            letter-spacing: -1px;
-        }
-
-        p {
-            font-size: 1.2rem;
-            color: #666;
-            max-width: 600px;
-            margin: 0 auto 2rem;
-        }
-
-        .social-links {
             display: flex;
             justify-content: center;
-            gap: 1.5rem;
-            margin-top: 2rem;
+            align-items: center;
+            font-family: 'Helvetica Neue', sans-serif;
+            position: relative;
         }
 
-        .social-links a {
-            color: #333;
-            text-decoration: none;
-            font-size: 1.1rem;
-        }
-
-        footer {
+        .centered-text {
+            font-size: 100px; /* Very big center text */
             text-align: center;
-            margin-top: 8rem;
-            color: #999;
+            position: absolute;
         }
 
-        @media (max-width: 768px) {
-            body {
-                padding: 1.5rem;
-            }
+        .corner-text {
+            position: absolute;
+            font-size: 16px; /* Small text for the corners */
+        }
 
-            header {
-                flex-direction: column;
-                text-align: center;
-                gap: 1rem;
-            }
+        /* Positioning the corner text */
+        .top-left {
+            top: 10px;
+            left: 10px;
+        }
 
-            nav a {
-                margin: 0 1rem;
-            }
+        .top-right {
+            top: 10px;
+            right: 10px;
+        }
 
-            h1 {
-                font-size: 2.5rem;
-            }
+        .bottom-left {
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .bottom-right {
+            bottom: 10px;
+            right: 10px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h2>kenn</h2>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#work">Work</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero">
-            <h1>Digital designer & front-end developer</h1>
-            <p>Creating meaningful digital experiences through thoughtful design and clean code.</p>
-            <div class="social-links">
-                <a href="https://github.com" target="_blank">GitHub</a>
-                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-                <a href="mailto:your@email.com">Email</a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2023 Your Name. All rights reserved.</p>
-    </footer>
+    <div class="centered-text">
+        IMPULSE Studio©
+    </div>
+    <div class="corner-text top-left">
+        №01
+    </div>
+    <div class="corner-text top-right">
+        kenn
+    </div>
+    <div class="corner-text bottom-left">
+        FOR PROJECT INQUIRIES CONTACT @KENXMIZU
+    </div>
+    <div class="corner-text bottom-right">
+        SENDAI, JAPAN
+    </div>
 </body>
 </html>
