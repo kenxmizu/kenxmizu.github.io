@@ -1,6 +1,6 @@
 # kenxmizu.github.io
 
-A little site for personal use. everything will be displayed. 
+a little site to experiment design. 
 
 
 ideas
