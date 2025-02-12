@@ -1,1 +1,30 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 110px; /* Big consistent size */
+    text-align: left;
+    line-height: 1.1;
+    height: 100%; /* Full height of the viewport */
+    width: 100%; /* Full width of the viewport */
+  }
+  
+  body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  
+  a {
+    text-decoration: underline;
+    color: inherit; /* Inherit text color, no blue */
+    text-decoration: underline;
+    color: inherit; /* Inherit text color, no blue */
+    text-decoration-thickness: 4px; /* Makes the underline thin */
+  }
+  
