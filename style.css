@@ -11,8 +11,8 @@ html, body {
   width: 100%;
   font-family: "Hanken Grotesk", sans-serif; /* Apply to all text */
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: regular;
+  font-weight: 300;
+  font-style: normal;
 }
 
 body {
