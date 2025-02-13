@@ -4,18 +4,15 @@
   box-sizing: border-box;
 }
 
-.hanken-grotesk-<uniquifier> {
-  font-family: "Hanken Grotesk", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
 html, body {
   text-align: left;
   line-height: 1.1;
-  height: 100%; /* Full height of the viewport */
-  width: 100%; /* Full width of the viewport */
+  height: 100%;
+  width: 100%;
+  font-family: "Hanken Grotesk", sans-serif; /* Apply to all text */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: regular;
 }
 
 body {
@@ -23,33 +20,31 @@ body {
   top: 0;
   left: 0;
   display: block;
-  font-size: 5vw; /* Use viewport width to adjust font size dynamically */
+  font-size: 5vw;
 }
 
-/* Smaller screens: iPhones and below */
 @media (max-width: 768px) {
   body {
-    font-size: 10vw; /* Smaller font size for small devices */
+    font-size: 10vw;
   }
 
   p {
-    font-size: 16px; /* Optional: Adjust paragraph size */
+    font-size: 16px;
   }
 }
 
-/* Additional fine-tuning for even smaller screens (e.g., portrait mode on iPhones) */
 @media (max-width: 480px) {
   body {
-    font-size: 12vw; /* Make font smaller on very small screens */
+    font-size: 12vw;
   }
-  
+
   p {
-    font-size: 14px; /* Optional: Reduce paragraph text size for very small screens */
+    font-size: 14px;
   }
 }
 
 a {
   text-decoration: underline;
-  color: inherit; /* Inherit text color, no blue */
-  text-decoration-thickness: 4px; /* Makes the underline thin */
+  color: inherit;
+  text-decoration-thickness: 4px;
 }
