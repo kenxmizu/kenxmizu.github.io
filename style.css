@@ -13,14 +13,21 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-color: #8F98AB;
+  background-color: #0f131c;
   color: #f5f5f5;
 
-  font-family: 'Instrument Serif', serif
+  @font-face {
+  font-family: 'MyFont';
+  src: url('fonts/acid-grotesk-medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  }
+  font-family: 'MyFont', serif;
 }
 
 /* Title */
 h1 {
+  font-family: 'MyFont', serif;
   font-size: 4.5rem;
   font-weight: 400;
   letter-spacing: 0.00em;
